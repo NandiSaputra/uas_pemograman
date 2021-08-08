@@ -30,7 +30,7 @@
        <td><?= $pekerjaan1['nama_pekerjaan']; ?></td>
        <td><?= $pekerjaan1['lama_kerja']; ?></td>
        <td><?= $pekerjaan1['nama_perusahaan']; ?></td>
-       <td><a href="" class=" btn btn-info">Edit</a></td>
+       <td><a href="<?= base_url('pekerjaanadmin/edit/' . $pekerjaan1['id_pekerjaan']) ?>" class=" btn btn-info">Edit</a>
       </tr>
      <?php } ?>
     </tbody>
@@ -54,7 +54,7 @@
        <td><?= $pekerjaan2['nama_pekerjaan']; ?></td>
        <td><?= $pekerjaan2['lama_kerja']; ?></td>
        <td><?= $pekerjaan2['nama_perusahaan']; ?></td>
-       <td><a href="" class=" btn btn-info">Edit</a></td>
+       <td><a href="<?= base_url('pekerjaanadmin/edit2/' . $pekerjaan2['id_pekerjaan2']) ?>" class=" btn btn-info">Edit</a>
       </tr>
      <?php } ?>
     </tbody>
